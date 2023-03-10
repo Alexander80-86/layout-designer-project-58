@@ -1,7 +1,15 @@
-/** CSS STYLE **/
+@font-face {
+  font-family: "Neucha";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Neucha"),
+   url(../assets/fonts/neucha/Neucha.ttf);
+}
 
-.hello {
-  display: block;
-
-  color: #fff;
+@font-face {
+  font-family: "";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Open Sans"),
+   url(../assets/fonts/Open_Sans/OpenSans.ttf);
 }
