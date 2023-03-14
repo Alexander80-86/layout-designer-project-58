@@ -12,7 +12,7 @@
 
 @font-face {
   font-weight: 400;
-  font-family: Neucha;
+  font-family: neucha;
   font-style: normal;
   src:
     local(neucha),
@@ -33,6 +33,10 @@
 }
 
 body {
+  min-width: none;
+  max-width: 1440px;
+  margin: 0 auto;
+
   background-color: var(--light);
 }
 
@@ -51,6 +55,14 @@ h4 {
   font-family: Neucha, sans-serif;
   font-style: normal;
   line-height: 1.2em;
+}
+
+.f-neucha {
+  font-family: neucha, sans-serif;
+}
+
+.f-open-sans {
+  font-family: "Open Sans", sans-serif;
 }
 
 /* h1 */
@@ -74,6 +86,46 @@ h4 {
 /* h3 */
 .fs-34 {
   font-size: 34px;
+}
+
+.fs-24 {
+  font-size: 24px;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+
+.f-style-n {
+  font-style: normal;
+}
+
+.f-weight-400 {
+  font-weight: 400;
+}
+
+.f-weight-700 {
+  font-weight: 700;
+}
+
+.l-height-26 {
+  line-height: 26px;
+}
+
+.l-height-29 {
+  line-height: 29px;
+}
+
+.l-height-72 {
+  line-height: 72px;
+}
+
+.l-height-41 {
+  line-height: 41px;
+}
+
+.t-list-transform {
+  text-transform: uppercase;
 }
 
 a {
@@ -124,12 +176,6 @@ a {
   border-color: var(--primary);
 }
 
-.btn-lg {
-  padding: 0.5rem 1rem;
-
-  font-size: 1.25rem;
-}
-
 .mg-0 {
   margin: 0;
 }
@@ -162,6 +208,26 @@ a {
   margin-bottom: 250px;
 }
 
+.mg-left-15 {
+  margin-left: 15px;
+}
+
+.mg-right-15 {
+  margin-right: 15px;
+}
+
+.mg-left-30 {
+  margin-left: 30px;
+}
+
+.mg-right-30 {
+  margin-right: 30px;
+}
+
+.pg-5-10 {
+  padding: 5px 10px;
+}
+
 .pg-24 {
   padding: 24px;
 }
@@ -172,6 +238,18 @@ a {
 
 .color-primary {
   color: var(--primary);
+}
+
+.color-gray {
+  color: var(--gray);
+}
+
+.color-brown {
+  color: var(--brown);
+}
+
+.bg-brown {
+  background-color: var(--brown);
 }
 
 .bg-white {
@@ -197,6 +275,12 @@ a {
 
 .bg-img {
   position: relative;
+}
+
+.z-backgraund {
+  z-index: -2;
+
+  background-color: var(--brown);
 }
 
 .bg-img::before {
