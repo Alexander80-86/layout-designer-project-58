@@ -35,6 +35,7 @@
 }
 
 body {
+  min-width: none;
   max-width: 1440px;
   margin: 0 auto;
 
