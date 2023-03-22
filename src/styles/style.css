@@ -252,12 +252,15 @@ h4 {
 .png_2 {
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
+
 .png_3 {
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
+
 .png_4 {
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
+
 .png_5 {
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
@@ -320,6 +323,7 @@ h4 {
 .f-size-16-5 {
   font-size: 16.5px;
 }
+
 .f-size-16 {
   font-size: 16px;
 }
